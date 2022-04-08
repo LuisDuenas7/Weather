@@ -11,3 +11,263 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-tittle{
+  margin-top: -84vh;
+  display: flex;
+  position: block;
+}
+
+/* ==============================================Main Boxes=============================================================== */
+.content-box {
+
+  height: 75%;
+  width: 75%;
+  backdrop-filter:blur(80%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position:fixed;
+}
+
+
+.left-box{
+  width: 48%;
+  height: 90%;
+  border-radius: 10px;
+  backdrop-filter: blur(80%);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./images/bk3.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  filter:opacity(90%);
+  
+
+  
+  
+}
+
+.right-box{
+  width: 48%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(108, 125, 125, 0.252);
+  border-radius: 10px;
+  backdrop-filter: blur(80%);
+  background-image: url('./images/bk2.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  position: relative;
+
+}
+
+
+
+/* ======================================================================================================================================================= */
+img{
+  margin-top: -20vh;
+  padding: 10px;
+}
+
+button{
+  font-family:Orbitron-Regular;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  padding: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-top: 1%;
+  background-color: rgba(223, 211, 211, 0.891);
+}
+
+button:hover{
+  margin-top: 1%;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  background-color: rgba(245, 238, 238, 0.959);
+  padding: 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* ==================================Fonts============================================================================ */
+ @font-face {
+  font-family: PermanentMarker-Regular;
+  src: url(/src/fonts/PermanentMarker-Regular.ttf) format('truetype');
+  font-style: normal;
+  
+} 
+
+
+@font-face {
+  font-family: Orbitron-Regular;
+  src: url(/src/fonts/Orbitron-Regular.ttf) format('truetype');
+  font-style: normal;
+  
+} 
+
+@font-face {
+  font-family: Orbitron-Bold;
+  src: url(/src/fonts/Orbitron-Bold.ttf) format('truetype');
+  font-style: normal;
+  
+} 
+
+/* ==========================================Left Content================================================= */
+
+h1{
+  font-family:Orbitron-Bold;
+  font-style: normal;
+  background-color: rgba(255, 33, 17, 0.476);
+  padding: 10px;
+  border-radius: 50px;
+
+  color:rgba(240, 238, 238, 0.789);
+  text-shadow: 12px 8px 3px  rgba(211, 211, 211, 0.15), 1px 1px 1.50px #666;
+  
+}
+
+h2{
+  font-family:Orbitron-Regular;
+  font-style: normal;
+
+  color:rgb(240, 238, 238);
+  text-shadow: 12px 8px 3px  rgba(211, 211, 211, 0.15), 1px 1px 1.50px #666;
+  
+}
+
+h3{
+  font-family:Orbitron-Regular;
+  font-style: normal;
+  font-size: medium;
+  color:rgb(240, 238, 238);
+  text-shadow: 12px 8px 3px  rgba(211, 211, 211, 0.15), 1px 1px 1.50px #666;
+
+}
+
+.content-box-left{
+  margin-top: 0px;  
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.content-temp-box{
+  margin-top: 0px;  
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.temp_value{
+  font-family:Orbitron-Bold;
+  font-weight: 80%;
+  font-size: 200%;
+  color:rgb(241, 235, 235);
+  text-shadow: 1px 2px 2px rgb(132, 128, 128);
+  margin-top: -3vh;
+  background-color: rgba(236, 232, 230, 0.381);
+  /* border-radius: 10px; */
+  padding: 10px;
+
+}
+
+
+
+
+
+
+
+/* ===================================Content Right================================================= */
+
+
+
+.content-box-right >*{
+  align-items: center;  
+  justify-content: center;
+  font-family: Orbitron-Regular;
+  background-color:  rgba(236, 232, 230, 0.381);
+  border-radius: 10px;
+  padding-left:20px ;
+
+  
+}
+
+.right-box{
+  text-align:justify;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.details{
+  background-color: rgba(102, 102, 102, 0);
+  color: rgb(49, 46, 46);
+}
+
+.details2{
+  
+  color: rgb(228, 215, 215);
+}
+
+
+
+
+
+/* =================================Spinner======================================================== */
+
+
+
+.lds-ripple {
+  display: flex;
+  position: relative;
+  width:border-box;
+  height: 100vh;
+    background-image: url(./images/bk.jpg);
+
+}
+.lds-ripple div {
+  position: absolute;
+  border: 5px solid rgb(245, 195, 141);
+  opacity: 1;
+  margin-left:45%;
+  margin-top: 22%;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 1, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
