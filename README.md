@@ -6,7 +6,7 @@
 > 
 
 
-### ✨ [Demo](https://youwhater-ld7.netlify.app/)
+### ✨ [Demo](https://youweather-ld7.netlify.app/)
 
 ## Install
 
