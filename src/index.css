@@ -297,6 +297,9 @@ h3{
   align-items: center;
   justify-content: space-evenly;
   position:fixed;
+  background-image: url('./images/bk3.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
 
@@ -309,7 +312,7 @@ h3{
   position: relative;
   flex-direction: column;
   align-items: center;
-  background-image: url('./images/bk3.jpg');
+  background-image: none;
   background-size:cover;
   background-repeat:no-repeat;
   filter:opacity(90%);
@@ -327,7 +330,7 @@ h3{
   background-color: rgba(108, 125, 125, 0.252);
   border-radius: 10px;
   backdrop-filter: blur(80%);
-  background-image: url('./images/bk2.jpg');
+  background-image: none;
   background-size:cover;
   background-repeat:no-repeat;
   position: relative;
@@ -402,8 +405,8 @@ h3{
   color:rgb(241, 235, 235);
   text-shadow: 1px 2px 2px rgb(132, 128, 128);
   margin-top: -3vh;
-  background-color: rgba(236, 232, 230, 0.381);
-  /* border-radius: 10px; */
+  background-color: rgba(236, 232, 230, 0.129);
+  border-radius: 10px;
   padding: 10px;
 
 }
@@ -449,12 +452,17 @@ h3{
   font-size: medium;
 }
 
+/* =========================Spinner Position================================== */
 
-
-
-
-
-
+.lds-ripple div {
+  position: absolute;
+  border: 5px solid rgb(245, 195, 141);
+  opacity: 1;
+  margin-left:40%;
+  margin-top:60%;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 1, 0.8, 1) infinite;
+}
 
 
 
